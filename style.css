@@ -1,8 +1,8 @@
 nav{
-    background-color: #BA5536;
+    background-color: #003B46;
 }
 #jumbotronbg{
-    background-color: #BA5536;
+    background-color: #003B46;
 }
 #about{
     padding-top: 3.5em;
@@ -26,9 +26,9 @@ nav{
     transition: transform 0.2s;
   }
   #footer{
-    background-color: #a43820;
+    background-color: #07575B;
     color: floralwhite;
-    height: 50px;
+    height: 60px;
   }
   #myBtn {
     display: none;
@@ -39,7 +39,7 @@ nav{
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #a43820;
+    background-color: #07575B;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -47,4 +47,8 @@ nav{
   }
 strong{
   text-transform: capitalize;
+}
+#buttonrs{
+  background-color: #c4dfe6;
+  color: black;
 }
