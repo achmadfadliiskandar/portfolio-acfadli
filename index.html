@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Achmad Fadli Iskandar</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.1.7/css/dataTables.dataTables.css">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="icon.jpeg">
 </head>
+
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark" id="navbar">
     <div class="container">
       <a class="navbar-brand" href="#jumbotronbg">Achmad Fadli Iskandar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#project">Project</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -29,7 +37,7 @@
     </div>
   </nav>
   <!-- navbar -->
-  
+
   <!-- jumbotron -->
   <div class="container-fluid text-light p-5 text-center text-capitalize" id="jumbotronbg">
     <div class="container p-5">
@@ -38,7 +46,7 @@
       <p>Mahasiswa Informatika | Pemain Bulu Tangkis Amatir</p>
       <a href="resume af1.pdf" target="_blank" class="btn btn-transparent" id="buttonrs">Resume Saya</a>
     </div>
-  </div>    
+  </div>
   <!-- jumbotron -->
   <!-- section about -->
   <section id="about" class="about">
@@ -48,7 +56,8 @@
         <div class="col-lg-6 col-sm-6 mb-3">
           <ul>
             <h4>Deskripsi Singkat</h4>
-            <p>Assalamualaikum warahmatullahi wabarakatuh saya adalah seorang mahasiswa di universitas gunadarma depok fakultas teknologi industri jurusan informatika,
+            <p>Assalamualaikum warahmatullahi wabarakatuh saya adalah seorang mahasiswa di universitas gunadarma depok
+              fakultas teknologi industri jurusan informatika,
               saya adalah seorang pemain bulu tangkis amatir di salah satu pb yaitu pb gloria,
               saya berasal dari kalimantan timur yaitu balikpapan saya dan lahir di bandung 17 September 2003
             </p>
@@ -76,7 +85,8 @@
               <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                       Sertifikasi
                     </button>
                   </h2>
@@ -84,31 +94,37 @@
                     <div class="accordion-body">
                       <ol class="list-group list-group-numbered">
                         <li class="list-group-item">Sertifikat Free Code Camp : <strong>HTML</strong>
-                        <li class="list-group-item">Sertifikat Solo Learn :  <strong>PHP,HTML,JS,JQUERY,SQL,CODING FOR MARKETERS,CSS,RESPONSIVE WEB DESIGN</strong>
+                        <li class="list-group-item">Sertifikat Solo Learn : <strong>PHP,HTML,JS,JQUERY,SQL,CODING FOR
+                            MARKETERS,CSS,RESPONSIVE WEB DESIGN</strong>
                         <li class="list-group-item">Kunjungan Industri (KUNJIN) Ke PT Frisidea Tech</li>
                         <li class="list-group-item">10 Besar Infinity 2.0 (universitas gunadarma)</li>
                         <!-- <li class="list-group-item">Finalis Himti cup 2023 Cabor Badminton Reg DPK-CGK</li>
                         <li class="list-group-item">Juara ITSOCIART FEST 2023 Cabor Badminton</li> -->
-                        <li class="list-group-item">Juara 2 WebXperience Design Challenge 2023 Coding Bagian Desain Web</li>
+                        <li class="list-group-item">Juara 2 WebXperience Design Challenge 2023 Coding Bagian Desain Web
+                        </li>
                       </ol>
                     </div>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                       Pengalaman
                     </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item">1.Mengikuti Seminar Dan Webinar BALANCING YOUR SKILL (BYS) 2023 Kampus Gunadarma D</li>
-                        <li class="list-group-item">2.Mengikuti Seminar Peran LSP dalam dunia kerja berbasis kompetensi di era revolusi 4.0 dan society 5.0 Online</li>
+                        <li class="list-group-item">1.Mengikuti Seminar Dan Webinar BALANCING YOUR SKILL (BYS) 2023
+                          Kampus Gunadarma D</li>
+                        <li class="list-group-item">2.Mengikuti Seminar Peran LSP dalam dunia kerja berbasis kompetensi
+                          di era revolusi 4.0 dan society 5.0 Online</li>
                         <li class="list-group-item">3.Menyelesaikan Praktikum Fisika Dasar Kampus Gunadarma H</li>
                         <li class="list-group-item">4.Menyelesaikan Praktikum LAB-TI Kampus Gunadarma E</li>
-                        <li class="list-group-item">5.Pernah Magang Di PT Indorental Selama 1.5 Bulan (online) Dan PT B-ONE CORP Selama 4 Bulan (offline)</li>
-                        <li class="list-group-item">6.Menyelesaikan 3 Kursus Lepkom (universitas gunadarma)</li>                      
+                        <li class="list-group-item">5.Pernah Magang Di PT Indorental Selama 1.5 Bulan (online) Dan PT
+                          B-ONE CORP Selama 4 Bulan (offline)</li>
+                        <li class="list-group-item">6.Menyelesaikan 3 Kursus Lepkom (universitas gunadarma)</li>
                       </ul>
                     </div>
                   </div>
@@ -125,15 +141,19 @@
               <h6 class="card-subtitle mb-2 text-body-secondary">Keahlian-Kemenangan</h6>
               <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Keahlian</button>
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Keahlian</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Kemenangan</button>
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Kemenangan</button>
                 </li>
               </ul>
               <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                  tabindex="0">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                    aria-labelledby="pills-home-tab" tabindex="0">
                     <table class="table table-bordered table-striped">
                       <thead>
                         <tr>
@@ -162,38 +182,39 @@
                     </table>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                  tabindex="0">
                   <div class="table-responsive">
-                  <table class="table table-bordered table-striped">
-                    <thead>
-                      <tr>
-                        <th scope="col">Cabor</th>
-                        <th scope="col" colspan="2">Prestasi</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Sepak Bola</td>
-                        <td colspan="3">Juara 2 Beji Kopo cup 2014</td>
-                      </tr>
-                      <tr>
-                        <td rowspan="2">Bulutangkis</td>
-                        <td>Juara 3 LIGA PELAJAR NUSANTARA 2024</td>
-                        <td>Juara 2 DEPOK BADMINTON CUP 2024</td>
-                        <!-- halaman prestasi bawah setiap juara nambah terus -->
+                    <table class="table table-bordered table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col">Cabor</th>
+                          <th scope="col" colspan="2">Prestasi</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Sepak Bola</td>
+                          <td colspan="3">Juara 2 Beji Kopo cup 2014</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="2">Bulutangkis</td>
+                          <td>Juara 3 LIGA PELAJAR NUSANTARA 2024</td>
+                          <td>Juara 2 DEPOK BADMINTON CUP 2024</td>
+                          <!-- halaman prestasi bawah setiap juara nambah terus -->
                         <tr>
                           <td>Juara 3 FISIP UI OPEN 2024</td>
                           <td>Juara 3 PULAUINTAN YONEX-SUNRISE KEJUARAAN KOTA PBSI JAKARTA SELATAN KE 55 2024</td>
                         </tr>
                         <!-- endnya pasti tiap juara nambah terus -->
-                      </tr>
-                      <tr>
-                        <td>Atletik/Lari</td>
-                        <td colspan="3">Juara 2 O2SN Cabang Lari</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
+                        </tr>
+                        <tr>
+                          <td>Atletik/Lari</td>
+                          <td colspan="3">Juara 2 O2SN Cabang Lari</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
@@ -204,60 +225,185 @@
   </section>
   <!-- section about -->
 
-   <!-- section contact -->
-    <section id="contact" class="contact bg-light">
-      <div class="container">
-        <h2 class="text-capitalize text-center">Contact</h2>
-        <h3>Sosial Media</h3>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><strong>email</strong>: <a href="mailto:af137357@gmail.com">achmadfadliiskandar1709@gmail.com</a></li>
-          <li class="list-group-item"><strong>github</strong>: <a href="https://github.com/achmadfadliiskandar" target="_blank">github.com/achmadfadliiskandar</a></li>
-          <li class="list-group-item"><strong>whatsapp</strong>: <a href="https://wa.me/6287732785828" target="_blank">0877-3278-5828</a></li>
-          <li class="list-group-item"><strong>linkedIn</strong>: <a href="https://linkedin.com/in/achmad-fadli-iskandar" target="_blank">linkedin.com/in/achmad-fadli-iskandar</a></li>
-          <li class="list-group-item"><strong>Instagram</strong>: <a href="https://www.instagram.com/17achmadfadliiskandar/" target="_blank">instagram.com/17achmadfadliiskandar</a></li>
-        </ul>
-        <!-- alamat rumah -->
-         <h3>Alamat Rumah</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.04451899345!2d106.81086927592983!3d-6.388256893602176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e956e82eedb9%3A0xdf486e732d7643b8!2sJl.%20Kopo%20No.27%2C%20RT.1%2FRW.13%2C%20Beji%2C%20Kecamatan%20Beji%2C%20Kota%20Depok%2C%20Jawa%20Barat%2016421!5e0!3m2!1sid!2sid!4v1719467088813!5m2!1sid!2sid" height="450" style="border:0;width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         <!-- alamat rumah -->
+  <!-- section proyek -->
+  <section id="project" class="project">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#66A5AD" fill-opacity="1"
+        d="M0,128L60,117.3C120,107,240,85,360,101.3C480,117,600,171,720,202.7C840,235,960,245,1080,229.3C1200,213,1320,171,1380,149.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <h2 class="text-capitalize text-center">Project</h2>
+      <div class="table-responsive">
+        <table id="example" class="" style="width:100%">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Project</th>
+              <th>Bahasa Pemrograman</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>WooCommerce TOKO MUMAN PARABOT</td>
+              <td>PHP-Laravel 10</td>
+            </tr>
+            <tr class="active">
+              <td>2</td>
+              <td>Portfolio Achmad Fadli Iskandar</td>
+              <td>Boostrap 5</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Point of sale starbak mart</td>
+              <td>Boostrap 5 - php</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Portfolio Achmad Fadli Iskandar v-old</td>
+              <td>Boostrap 5- Laravel 9</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Tebak Gambar</td>
+              <td>Boostrap 5 - Laravel 9</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Tebak Angka 1-10</td>
+              <td>Boostrap 5 - Javascript</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Hitung Score Badminton</td>
+              <td>Boostrap 5 - Javascript</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Aplikasi Gunting Batu Kertas</td>
+              <td>Python</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>Aplikasi Pendataan Mahasiswa</td>
+              <td>Java</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Company Profile Cireng Junet</td>
+              <td>Boostrap 5</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>Tebak Kata</td>
+              <td>Html - PHP - Javascript</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>Aplikasi Invoice berbasis web</td>
+              <td>Boostrap 5 - Laravel 8</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>Website Hotel IndigoShine</td>
+              <td>Boostrap 5 - Laravel 9</td>
+            </tr>
+            <tr>
+              <td>14</td>
+              <td>Website Bangkit Hijau</td>
+              <td>Tailwind</td>
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>Website Belajar Fisika Percepatan</td>
+              <td>Boostrap 5 - Javascript</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-    </section>
-    <!-- section contact -->
-     
-    <!-- khusus back to top -->
-    <button onclick="topFunction()" id="myBtn">&UpArrow;</button>
-     <!-- khusus back to top -->
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#66A5AD" fill-opacity="1"
+        d="M0,128L60,117.3C120,107,240,85,360,101.3C480,117,600,171,720,202.7C840,235,960,245,1080,229.3C1200,213,1320,171,1380,149.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- section proyek -->
 
-     <!-- footer -->
-     <footer class="text-center p-3" id="footer">
-      <div class="container">
-        <p class="mb-0">copyright &copy; Achmad Fadli Iskandar <span id="tahun"></span></p>
-      </div>
-    </footer>
-      <!-- footer -->
-       <!-- kode untuk menghilangkan #pada url ketika di klik -->
-       <script>
-        // Smooth scroll to anchor links
-        document.addEventListener("DOMContentLoaded", function() {
-          var scrollLinks = document.querySelectorAll('a[href^="#"]');
-          
-          scrollLinks.forEach(function(scrollLink) {
-            scrollLink.addEventListener("click", function(event) {
-              event.preventDefault();
-              var targetId = this.getAttribute("href").substring(1);
-              var targetElement = document.getElementById(targetId);
-              if (targetElement) {
-                targetElement.scrollIntoView({
-                  behavior: "smooth",
-                  block: "start"
-                });
-              }
+  <!-- section contact -->
+  <section id="contact" class="contact bg-light">
+    <div class="container">
+      <h2 class="text-capitalize text-center">Contact</h2>
+      <h3>Sosial Media</h3>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><strong>email</strong>: <a
+            href="mailto:af137357@gmail.com">achmadfadliiskandar1709@gmail.com</a></li>
+        <li class="list-group-item"><strong>github</strong>: <a href="https://github.com/achmadfadliiskandar"
+            target="_blank">github.com/achmadfadliiskandar</a></li>
+        <li class="list-group-item"><strong>whatsapp</strong>: <a href="https://wa.me/6287732785828"
+            target="_blank">0877-3278-5828</a></li>
+        <li class="list-group-item"><strong>linkedIn</strong>: <a href="https://linkedin.com/in/achmad-fadli-iskandar"
+            target="_blank">linkedin.com/in/achmad-fadli-iskandar</a></li>
+        <li class="list-group-item"><strong>Instagram</strong>: <a
+            href="https://www.instagram.com/17achmadfadliiskandar/"
+            target="_blank">instagram.com/17achmadfadliiskandar</a></li>
+      </ul>
+      <!-- alamat rumah -->
+      <h3>Alamat Rumah</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.04451899345!2d106.81086927592983!3d-6.388256893602176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e956e82eedb9%3A0xdf486e732d7643b8!2sJl.%20Kopo%20No.27%2C%20RT.1%2FRW.13%2C%20Beji%2C%20Kecamatan%20Beji%2C%20Kota%20Depok%2C%20Jawa%20Barat%2016421!5e0!3m2!1sid!2sid!4v1719467088813!5m2!1sid!2sid"
+        height="450" style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <!-- alamat rumah -->
+    </div>
+  </section>
+  <!-- section contact -->
+
+  <!-- khusus back to top -->
+  <button onclick="topFunction()" id="myBtn">&UpArrow;</button>
+  <!-- khusus back to top -->
+
+  <!-- footer -->
+  <footer class="text-center p-3" id="footer">
+    <div class="container">
+      <p class="mb-0">copyright &copy; Achmad Fadli Iskandar <span id="tahun"></span></p>
+    </div>
+  </footer>
+  <!-- footer -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/2.1.7/js/dataTables.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#example').DataTable();
+    });
+  </script>
+  <!-- kode untuk menghilangkan #pada url ketika di klik -->
+  <script>
+    // Smooth scroll to anchor links
+    document.addEventListener("DOMContentLoaded", function () {
+      var scrollLinks = document.querySelectorAll('a[href^="#"]');
+
+      scrollLinks.forEach(function (scrollLink) {
+        scrollLink.addEventListener("click", function (event) {
+          event.preventDefault();
+          var targetId = this.getAttribute("href").substring(1);
+          var targetElement = document.getElementById(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: "smooth",
+              block: "start"
             });
-          });
+          }
         });
-      </script>      
-        <!-- kode untuk menghilangkan #pada url ketika di klik -->
-      <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      });
+    });
+  </script>
+  <!-- kode untuk menghilangkan #pada url ketika di klik -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
