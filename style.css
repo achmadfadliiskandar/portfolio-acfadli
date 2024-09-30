@@ -1,4 +1,4 @@
-nav{
+#navbar{
     background-color: #003B46;
 }
 #jumbotronbg{
@@ -7,6 +7,10 @@ nav{
 #about{
     padding-top: 3.5em;
     padding-bottom: 3.5em;
+}
+#project{
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
 }
 #contact{
     padding-top: 3.5em;
@@ -51,4 +55,7 @@ strong{
 #buttonrs{
   background-color: #c4dfe6;
   color: black;
+}
+table{
+  text-transform: capitalize;
 }
